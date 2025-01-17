@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header  */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+
+    
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.ab{
+    display: flex;
+    
+}
+.aa{
+    font-weight: 700;
+    font-size: 45px;
+}
+/* dark2 */
+.text-gray{
+    color: #424242; ;
+}
+.ad-description{
+    color: #727272;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.a, .ab{
+    max-width: 1440px;
+}
+.ac{
+
+}
+/* ad related style */
+.ad{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ad-title{
+    font-weight: 700;
+     font-size: 64px;
+     margin-bottom: 50px;
+}
+/*btn-ad  */
+.btn-ad{
+    background-color: rgba(255, 144, 14, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 22px 25px;
+    font-size: 1.25px 600;
+    border-radius: 8px;
+    border: none;
+}
+.img-1{
+      width: 100;
+      margin: 0 auto;
+      align-items: center;
+      width: 1500px;
+      height: 800px;
+      margin-top: 30px;
+      
+}
+/* responsive media quey */
+@media screen and (max-width:576px) {
+    .a,.ab,.bg-light,.img-1{
+        flex-direction: column;
+    }
+}
+/* main style */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+/* section img style */
+@media screen and (max-width:576px) {
+    .img-c{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    
+    .our-b{
+        margin-left: 20px;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    
+}
+.teams{
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+
+}
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+/* .img-c{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;*/
+}
+.our-b{
+    margin-left: 130px;
+    max-width: 430px;
+
+}
+.b-a{
+    font-size: 2.8rem;
+}
+.b-b{
+    color: #727272;
+}
+.b-c{
+    font-weight: 500;
+    
+}
+.b-d{
+
+        color: rgba(255, 144, 14, 1);
+}
